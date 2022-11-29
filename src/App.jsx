@@ -28,7 +28,8 @@ function App() {
         if (
           squares[a] && squares[a]=== squares[b]&&squares[a]===squares[c]
         ){
-          return `${squares[a]} Has Won!`
+          // console.log(squares[a])
+          return squares[a]=== 'X' ? 'Demons Have Won' : 'Angels Have Won' 
         }
     }
     return 'Who Will Win?'
